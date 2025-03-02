@@ -1,6 +1,10 @@
 {
   "name": "microfrontends-monorepo",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -11,7 +15,8 @@
   "devDependencies": {
     "prettier": "^3.5.0",
     "turbo": "^2.4.4",
-    "typescript": "5.7.3"
+    "typescript": "5.7.3",
+    "@repo/eslint-config": "workspace:*"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
