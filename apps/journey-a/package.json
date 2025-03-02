@@ -1,5 +1,5 @@
 {
-  "name": "react-host",
+  "name": "journey-a",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,13 +9,10 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@module-federation/enhanced": "^0.9.1",
-    "@repo/ui": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^0.9.1",
     "@rsbuild/core": "^1.2.11",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/react": "^19.0.10",
