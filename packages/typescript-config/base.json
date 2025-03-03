@@ -3,6 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
+    "emitDeclarationOnly": false,
     "esModuleInterop": true,
     "incremental": false,
     "isolatedModules": true,
@@ -11,9 +12,12 @@
     "moduleDetection": "force",
     "moduleResolution": "NodeNext",
     "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022"
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

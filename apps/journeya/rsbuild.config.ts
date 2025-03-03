@@ -6,14 +6,15 @@ export default defineConfig({
   plugins: [
     pluginReact(),
     pluginModuleFederation({
-      name: "host",
-      remotes: {
-        journeya: "journeya@http://localhost:3001/mf-manifest.json",
+      name: "journeya",
+      exposes: {
+        "./App": "./src/App.tsx",
       },
       shared: ["react", "react-dom"],
+      dts: false,
     }),
   ],
   server: {
-    port: 3000,
+    port: 3001,
   },
 });

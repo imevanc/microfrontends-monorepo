@@ -1,4 +1,5 @@
 {
+  "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
     "lib": ["DOM", "ES2020"],
     "jsx": "react-jsx",
@@ -17,7 +18,7 @@
     /* type checking */
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
   },
   "include": ["src"]
 }
