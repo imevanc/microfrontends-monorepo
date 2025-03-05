@@ -114,7 +114,7 @@ importers:
         version: 9.21.0
       '@next/eslint-plugin-next':
         specifier: ^15.1.6
-        version: 15.2.0
+        version: 15.2.1
       eslint:
         specifier: ^9.21.0
         version: 9.21.0(jiti@2.4.2)
@@ -381,8 +381,8 @@ packages:
   '@module-federation/webpack-bundler-runtime@0.9.1':
     resolution: {integrity: sha512-CxySX01gT8cBowKl9xZh+voiHvThMZ471icasWnlDIZb14KasZoX1eCh9wpGvwoOdIk9rIRT7h70UvW9nmop6w==}
 
-  '@next/eslint-plugin-next@15.2.0':
-    resolution: {integrity: sha512-jHFUG2OwmAuOASqq253RAEG/5BYcPHn27p1NoWZDCf4OdvdK0yRYWX92YKkL+Mk2s+GyJrmd/GATlL5b2IySpw==}
+  '@next/eslint-plugin-next@15.2.1':
+    resolution: {integrity: sha512-6ppeToFd02z38SllzWxayLxjjNfzvc7Wm07gQOKSLjyASvKcXjNStZrLXMHuaWkhjqxe+cnhb2uzfWXm1VEj/Q==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -857,6 +857,9 @@ packages:
 
   caniuse-lite@1.0.30001701:
     resolution: {integrity: sha512-faRs/AW3jA9nTwmJBSO1PQ6L/EOgsB5HMQQq4iCu5zhPgVVgO/pZRHlmatwijZKetFw8/Pr4q6dEN8sJuq8qTw==}
+
+  caniuse-lite@1.0.30001702:
+    resolution: {integrity: sha512-LoPe/D7zioC0REI5W73PeR1e1MLCipRGq/VkovJnd6Df+QVqT+vT33OXCp8QUd7kA7RZrHWxb1B36OQKI/0gOA==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -3064,7 +3067,7 @@ snapshots:
       '@module-federation/runtime': 0.9.1
       '@module-federation/sdk': 0.9.1
 
-  '@next/eslint-plugin-next@15.2.0':
+  '@next/eslint-plugin-next@15.2.1':
     dependencies:
       fast-glob: 3.3.1
 
@@ -3191,7 +3194,7 @@ snapshots:
       '@module-federation/runtime-tools': 0.8.4
       '@rspack/binding': 1.2.6
       '@rspack/lite-tapable': 1.0.1
-      caniuse-lite: 1.0.30001701
+      caniuse-lite: 1.0.30001702
     optionalDependencies:
       '@swc/helpers': 0.5.15
 
@@ -3591,6 +3594,8 @@ snapshots:
   camelcase-css@2.0.1: {}
 
   caniuse-lite@1.0.30001701: {}
+
+  caniuse-lite@1.0.30001702: {}
 
   chalk@2.4.2:
     dependencies:
