@@ -5,5 +5,11 @@
     "env": {
       "ENABLE_EXPERIMENTAL_COREPACK": "1"
     }
-  }
+  },
+  "builds": [
+    {
+      "src": "dist/**/*",
+      "use": "@vercel/static"
+    }
+  ]
 }
