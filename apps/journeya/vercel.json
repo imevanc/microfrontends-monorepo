@@ -14,7 +14,7 @@
   ],
   "headers": [
     {
-      "source": "/static/(.*)",
+      "source": "/.dist/static/(.*)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
