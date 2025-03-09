@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd ../.. && npx turbo run build --filter=journeya",
-  "outputDirectory": "dist"
-}
