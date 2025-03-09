@@ -15,6 +15,8 @@
   },
   "devDependencies": {
     "@module-federation/rsbuild-plugin": "^0.9.1",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@rsbuild/core": "^1.2.11",
     "@rsbuild/plugin-react": "^1.1.1",
