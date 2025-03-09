@@ -8,7 +8,7 @@ dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 
 const getRemoteEntryUrl = () =>
   process.env.VERCEL_ENV === "production"
-    ? "https://microfrontends-monorepo.vercel.app/mf-manifest.json"
+    ? "https://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json"
     : "http://localhost:3001/mf-manifest.json";
 
 console.log("getRemoteEntryUrl", getRemoteEntryUrl());
