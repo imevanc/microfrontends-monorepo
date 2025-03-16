@@ -20,8 +20,12 @@ export default defineConfig({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        journeya: `journeya@https://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json`,
+        journeya: {
+          external:
+            "journeya@https://microfrontends-monorepo-journeya.vercel.app/remoteEntry.js",
+        },
       },
+
       shared: ["react", "react-dom"],
     }),
   ],
