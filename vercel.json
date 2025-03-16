@@ -8,5 +8,15 @@
       "src": "apps/journeya/dist/**",
       "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    {
+      "src": "/host/(.*)",
+      "dest": "/apps/host/dist/$1"
+    },
+    {
+      "src": "/journeya/(.*)",
+      "dest": "/apps/journeya/dist/$1"
+    }
   ]
 }
