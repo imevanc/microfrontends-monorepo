@@ -3,6 +3,12 @@ import { pluginReact } from "@rsbuild/plugin-react";
 import { pluginModuleFederation } from "@module-federation/rsbuild-plugin";
 
 export default defineConfig({
+  dev: {
+    assetPrefix: "https://microfrontends-monorepo-journeya.vercel.app/",
+  },
+  output: {
+    assetPrefix: "https://microfrontends-monorepo-journeya.vercel.app/",
+  },
   plugins: [
     pluginReact(),
     pluginModuleFederation({
