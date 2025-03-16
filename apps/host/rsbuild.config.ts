@@ -9,7 +9,7 @@ export default defineConfig({
       name: "host",
       remotes: {
         journeya:
-          "journeya@http://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json",
+          "journeya@https://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json",
       },
       shared: ["react", "react-dom"],
     }),
