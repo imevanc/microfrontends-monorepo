@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "apps/host/dist/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "apps/journeya/dist/**",
+      "use": "@vercel/static"
+    }
+  ]
+}
