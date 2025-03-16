@@ -1,0 +1,28 @@
+{
+  "buildCommand": "pnpm --workspace-root exec turbo --no-daemon --filter host build --env-mode loose",
+  "installCommand": "node -v && pnpm --workspace-root --filter host... install --config.dedupe-peer-dependents=false",
+  "build": {
+    "env": {
+      "ENABLE_EXPERIMENTAL_COREPACK": "1"
+    }
+  },
+  "headers": [
+    {
+      "source": "/.dist/static/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}
