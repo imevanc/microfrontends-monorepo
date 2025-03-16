@@ -7,6 +7,7 @@ export default defineConfig({
     pluginReact(),
     pluginModuleFederation({
       name: "journeya",
+      filename: "remoteEntry.js",
       exposes: {
         "./App": "./src/App.tsx",
       },
