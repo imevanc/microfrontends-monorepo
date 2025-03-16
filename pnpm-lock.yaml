@@ -37,8 +37,8 @@ importers:
         version: 19.0.0(react@19.0.0)
     devDependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: ^0.9.1
-        version: 0.9.1(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
+        specifier: ^0.10.0
+        version: 0.10.0(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
@@ -89,8 +89,8 @@ importers:
         version: 19.0.0(react@19.0.0)
     devDependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: ^0.9.1
-        version: 0.9.1(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
+        specifier: ^0.10.0
+        version: 0.10.0(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
@@ -389,8 +389,8 @@ packages:
   '@module-federation/manifest@0.9.1':
     resolution: {integrity: sha512-+GteKBXrAUkq49i2CSyWZXM4vYa+mEVXxR9Du71R55nXXxgbzAIoZj9gxjRunj9pcE8+YpAOyfHxLEdWngxWdg==}
 
-  '@module-federation/rsbuild-plugin@0.9.1':
-    resolution: {integrity: sha512-7+VvkK8tI6YAxfMgZz+t3c6W6aAuCsEaTkMYBUc4KYlBstAGbT3WZhR5RDiGc3qc8r+39U5ERTZnp8LOq5ZcVg==}
+  '@module-federation/rsbuild-plugin@0.10.0':
+    resolution: {integrity: sha512-CCJVP1nrd8ZK7u5SM/amJLTWTwhSxcNmfn+5+Mbpi1kI0ouTvPWmkfCSTpQvZcSEM6WDta3CcnzmI86zLisqow==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@rsbuild/core': 1.x
@@ -3104,10 +3104,10 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/rsbuild-plugin@0.9.1(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)':
+  '@module-federation/rsbuild-plugin@0.10.0(@rsbuild/core@1.2.15)(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)':
     dependencies:
-      '@module-federation/enhanced': 0.9.1(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
-      '@module-federation/sdk': 0.9.1
+      '@module-federation/enhanced': 0.10.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
+      '@module-federation/sdk': 0.10.0
     optionalDependencies:
       '@rsbuild/core': 1.2.15
     transitivePeerDependencies:
