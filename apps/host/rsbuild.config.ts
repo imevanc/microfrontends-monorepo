@@ -8,8 +8,7 @@ export default defineConfig({
     pluginModuleFederation({
       name: "host",
       remotes: {
-        journeya:
-          "journeya@https://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json",
+        journeya: "journeya@http://localhost:3001/mf-manifest.json",
       },
       shared: ["react", "react-dom"],
     }),
