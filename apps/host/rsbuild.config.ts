@@ -7,7 +7,6 @@ export default defineConfig({
     pluginReact(),
     pluginModuleFederation({
       name: "host",
-      filename: "remoteEntry.js",
       remotes: {
         journeya:
           "journeya@https://microfrontends-monorepo-journeya.vercel.app/mf-manifest.json",
