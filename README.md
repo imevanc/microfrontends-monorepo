@@ -1,5 +1,6 @@
 # 🌐 Micro Frontend Turborepo Starter
-Welcome to the Micro Frontend Turborepo Starter! This project demonstrates a monorepo setup for micro frontends using Turborepo. 🚀
+Welcome to the Micro Frontend Turborepo Starter! 
+<br/>This project demonstrates a monorepo setup for micro frontends using Turborepo. 🚀
 
 ## 🏗️ Project Overview
 This repository follows a monorepo architecture to manage multiple micro frontends efficiently. It includes:
@@ -15,18 +16,18 @@ To ensure consistency across micro frontends, this repo includes the following r
 
 ## 🌍 Deployments
 This project is hosted on Vercel with automatic deployments:
-- Host Application: (microfrontends-monorepo.vercel.app)[https://microfrontends-monorepo.vercel.app/]
-- Remote Application: (microfrontends-monorepo-journeya.vercel.app)[https://microfrontends-monorepo-journeya.vercel.app/]
+- Host Application: [microfrontends-monorepo.vercel.app](https://microfrontends-monorepo.vercel.app/)
+- Remote Application: [microfrontends-monorepo-journeya.vercel.app](https://microfrontends-monorepo-journeya.vercel.app/)
 
 ## 🌟 Tech Stack
-📦 Monorepo Structure – Efficiently manage multiple micro frontends.
-🔗 Micro Frontend Architecture – Independent development and deployment of frontend modules.
-⚡ Turborepo Integration – Speeds up builds and improves performance.
-🚀 Vercel Hosting – Automatic and scalable deployments.
-🎨 Shared Configurations – Standardised ESLint, Tailwind, and TypeScript settings.
-🖥️ Reusable UI Library – Prebuilt components for a consistent UI.
-🚀 TypeScript – Strongly typed JavaScript.
-🌍 React – UI library for building modular frontends.
+- 📦 Monorepo Structure – Efficiently manage multiple micro frontends.
+- 🔗 Micro Frontend Architecture – Independent development and deployment of frontend modules.
+- ⚡ Turborepo Integration – Speeds up builds and improves performance.
+- 🚀 Vercel Hosting – Automatic and scalable deployments.
+- 🎨 Shared Configurations – Standardised ESLint, Tailwind, and TypeScript settings.
+- 🖥️ Reusable UI Library – Prebuilt components for a consistent UI.
+- 🚀 TypeScript – Strongly typed JavaScript.
+- 🌍 React – UI library for building modular frontends.
 📦 Tailwind CSS – Utility-first styling framework.
 
 ## 🚀 Getting Started
@@ -55,5 +56,5 @@ This project is licensed under the (MIT License)[LICENSE].
 Contributions are welcome! Open an issue or submit a pull request.
 
 ## 📧 Contact
-For questions or suggestions, open an issue in this repository.
+For questions or suggestions, open an issue in this repository.<br/>
 Enjoy building with the Micro Frontend Turborepo Starter! 🚀🎉
