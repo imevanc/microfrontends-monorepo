@@ -50,7 +50,7 @@ pnpm run dev
 The host application will be available at http://localhost:3000 and the remote at http://localhost:3001.
 
 ## 📄 License
-This project is licensed under the (MIT License)[LICENSE].
+This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 Contributions are welcome! Open an issue or submit a pull request.
