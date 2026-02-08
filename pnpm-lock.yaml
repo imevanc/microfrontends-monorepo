@@ -53,7 +53,7 @@ importers:
         version: 1.5.16
       '@rsbuild/plugin-react':
         specifier: ^1.1.1
-        version: 1.4.1(@rsbuild/core@1.5.16)
+        version: 1.4.5(@rsbuild/core@1.5.16)
       '@types/react':
         specifier: ^19.0.10
         version: 19.2.13
@@ -102,7 +102,7 @@ importers:
         version: 1.5.16
       '@rsbuild/plugin-react':
         specifier: ^1.1.1
-        version: 1.4.1(@rsbuild/core@1.5.16)
+        version: 1.4.5(@rsbuild/core@1.5.16)
       '@types/react':
         specifier: ^19.0.10
         version: 19.2.13
@@ -610,10 +610,10 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-react@1.4.1':
-    resolution: {integrity: sha512-kahvnfRPQTsG0tReR6h0KuVfyjKJfpv/PoU5qW5SDkON7vmbGn8Jx7l3fI+yU3lR/7qDiAO19QnNjkqxPsFT3Q==}
+  '@rsbuild/plugin-react@1.4.5':
+    resolution: {integrity: sha512-eS2sXCedgGA/7bLu8yVtn48eE/GyPbXx4Q7OcutB01IQ1D2y8WSMBys4nwfrecy19utvw4NPn4gYDy52316+vg==}
     peerDependencies:
-      '@rsbuild/core': 1.x
+      '@rsbuild/core': ^1.0.0 || ^2.0.0-0
 
   '@rspack/binding-darwin-arm64@1.5.8':
     resolution: {integrity: sha512-spJfpOSN3f7V90ic45/ET2NKB2ujAViCNmqb0iGurMNQtFRq+7Kd+jvVKKGXKBHBbsQrFhidSWbbqy2PBPGK8g==}
@@ -680,8 +680,8 @@ packages:
     resolution: {integrity: sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==}
     engines: {node: '>=16.0.0'}
 
-  '@rspack/plugin-react-refresh@1.5.1':
-    resolution: {integrity: sha512-GT3KV1GSmIXO8dQg6taNf9AuZ8XHEs8cZqRn5mC2GT6DPCvUA/ZKezIGsHTyH+HMEbJnJ/T8yYeJnvnzuUcqAQ==}
+  '@rspack/plugin-react-refresh@1.6.0':
+    resolution: {integrity: sha512-OO53gkrte/Ty4iRXxxM6lkwPGxsSsupFKdrPFnjwFIYrPvFLjeolAl5cTx+FzO5hYygJiGnw7iEKTmD+ptxqDA==}
     peerDependencies:
       react-refresh: '>=0.10.0 <1.0.0'
       webpack-hot-middleware: 2.x
@@ -2582,8 +2582,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-refresh@0.17.0:
-    resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==}
+  react-refresh@0.18.0:
+    resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
   react@19.2.4:
@@ -3744,11 +3744,11 @@ snapshots:
       core-js: 3.45.1
       jiti: 2.6.1
 
-  '@rsbuild/plugin-react@1.4.1(@rsbuild/core@1.5.16)':
+  '@rsbuild/plugin-react@1.4.5(@rsbuild/core@1.5.16)':
     dependencies:
       '@rsbuild/core': 1.5.16
-      '@rspack/plugin-react-refresh': 1.5.1(react-refresh@0.17.0)
-      react-refresh: 0.17.0
+      '@rspack/plugin-react-refresh': 1.6.0(react-refresh@0.18.0)
+      react-refresh: 0.18.0
     transitivePeerDependencies:
       - webpack-hot-middleware
 
@@ -3807,11 +3807,11 @@ snapshots:
 
   '@rspack/lite-tapable@1.0.1': {}
 
-  '@rspack/plugin-react-refresh@1.5.1(react-refresh@0.17.0)':
+  '@rspack/plugin-react-refresh@1.6.0(react-refresh@0.18.0)':
     dependencies:
       error-stack-parser: 2.1.4
       html-entities: 2.6.0
-      react-refresh: 0.17.0
+      react-refresh: 0.18.0
 
   '@swc/helpers@0.5.17':
     dependencies:
@@ -5955,7 +5955,7 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-refresh@0.17.0: {}
+  react-refresh@0.18.0: {}
 
   react@19.2.4: {}
 
