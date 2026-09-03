@@ -15,8 +15,8 @@
     "@repo/typescript-config": "workspace:*",
     "@turbo/gen": "^2.4.0",
     "@types/node": "^24.0.0",
-    "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
     "eslint": "^10.0.0",
     "typescript": "5.9.3"
   },
